@@ -27,5 +27,9 @@ Self-taught security practitioner focused on protecting individuals and small bu
 ## Ethics
 All testing is performed on systems I own or have written permission to assess. Personal data is redacted.
 
+
+## Progress Log
+- **2026-10-01:** Built a Python password breach checker using the HIBP Pwned Passwords API. Uses k-anonymity, so the real password never leaves the machine. See [`scripts/pwcheck.py`](scripts/pwcheck.py).
+  
 ## Connect
 [LinkedIn](https://www.linkedin.com/in/jeffreyisdavid/) · [TryHackMe](https://tryhackme.com/p/gahtomahiko)
