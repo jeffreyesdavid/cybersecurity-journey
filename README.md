@@ -30,6 +30,7 @@ All testing is performed on systems I own or have written permission to assess. 
 
 ## Progress Log
 - **2026-10-02:** Built [tx-guard](https://github.com/jeffreyesdavid/tx-guard), a Python tool that checks crypto transactions before signing: matches 2,500+ known scam addresses, detects wallet-draining approvals, and simulates transactions on live Ethereum to show exact losses and hidden approvals. 37 automated tests.
+- **2026-10-02:** Audited and rebuilt my [interactive resume](https://github.com/jeffreyesdavid/interactive-resume): removed my publicly exposed phone number (PII), fixed a broken deployment, cleared leftover AI-generated text, and retargeted it for fraud and security analyst roles.
 - **2026-10-02:** Scoped a least-privilege GitHub token to one repo, then revoked and rotated it immediately after accidental exposure.
 - **2026-10-01:** Built a Python password breach checker using the HIBP Pwned Passwords API. Uses k-anonymity, so the real password never leaves the machine. See [`scripts/pwcheck.py`](scripts/pwcheck.py).
 - **2026-10-01:** Investigated a Google critical security alert on my own account: rotated credentials, audited sessions, checked for mailbox persistence. See [write-up](writeups/01-personal-account-incident-response.md).
