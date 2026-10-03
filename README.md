@@ -14,7 +14,7 @@ Self-taught security practitioner focused on stopping fraud and scams, and prote
 ## Portfolio
 | Project | Skills | Status |
 |---------|--------|--------|
-| [tx-guard: Crypto Transaction Safety Checker](https://github.com/jeffreyesdavid/tx-guard) | Python, Ethereum, threat detection, transaction simulation, unit testing, Streamlit web app | Complete · [Live demo](https://txguard-jeffrey.streamlit.app) |
+| [tx-guard: Crypto Transaction Safety Checker](https://github.com/jeffreyesdavid/tx-guard) | Python, Ethereum, threat detection, transaction simulation, unit testing, Streamlit web app | Complete · [Try it live →](https://txguard-jeffrey.streamlit.app) |
 | [beat-guard: Beat Fingerprinting & Theft Detection](https://github.com/jeffreyesdavid/beat-guard) | Python, audio fingerprinting, SHA-256, blockchain timestamps, evidence reporting | Complete |
 | [Incident Response: Personal Google Account](writeups/01-personal-account-incident-response.md) | Triage, credential rotation, session audit, MFA | Complete |
 | Breach Response: Client A | OSINT, account hardening, credit freeze | Planned |
