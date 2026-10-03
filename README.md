@@ -14,7 +14,7 @@ Self-taught security practitioner focused on stopping fraud and scams, and prote
 ## Portfolio
 | Project | Skills | Status |
 |---------|--------|--------|
-| [tx-guard: Crypto Transaction Safety Checker](https://github.com/jeffreyesdavid/tx-guard) | Python, Ethereum, threat detection, transaction simulation, unit testing | Complete |
+| [tx-guard: Crypto Transaction Safety Checker](https://github.com/jeffreyesdavid/tx-guard) | Python, Ethereum, threat detection, transaction simulation, unit testing, Streamlit web app | Complete · [Live demo](https://txguard-jeffrey.streamlit.app) |
 | [beat-guard: Beat Fingerprinting & Theft Detection](https://github.com/jeffreyesdavid/beat-guard) | Python, audio fingerprinting, SHA-256, blockchain timestamps, evidence reporting | Complete |
 | [Incident Response: Personal Google Account](writeups/01-personal-account-incident-response.md) | Triage, credential rotation, session audit, MFA | Complete |
 | Breach Response: Client A | OSINT, account hardening, credit freeze | Planned |
@@ -31,6 +31,7 @@ Self-taught security practitioner focused on stopping fraud and scams, and prote
 All testing is performed on systems I own or have written permission to assess. Personal data is redacted.
 
 ## Progress Log
+- **2026-10-03:** Shipped a [live web demo of tx-guard](https://txguard-jeffrey.streamlit.app) so anyone can check a transaction or address in the browser with no install. Added an animated terminal demo to the README showing it catch three common wallet-draining scams, and fixed a broken clone URL in the setup instructions.
 - **2026-10-02:** Hardened tx-guard's input validation after a mistyped test input produced misleading output: malformed transaction data is now rejected with a clear error instead of being silently misread.
 - **2026-10-02:** Built [beat-guard](https://github.com/jeffreyesdavid/beat-guard) ([project page](https://jeffreyesdavid.github.io/beat-guard/)), a Python tool that fingerprints music producers' beats, timestamps them on Bitcoin, and finds them inside other songs, even under vocals, MP3 compression, or a sped-up disguise. Produces a shareable evidence report. 10 end-to-end tests.
 - **2026-10-02:** Built [tx-guard](https://github.com/jeffreyesdavid/tx-guard), a Python tool that checks crypto transactions before signing: matches 2,500+ known scam addresses, detects wallet-draining approvals, and simulates transactions on live Ethereum to show exact losses and hidden approvals. 37 automated tests.
