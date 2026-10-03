@@ -16,6 +16,7 @@ Self-taught security practitioner focused on stopping fraud and scams, and prote
 |---------|--------|--------|
 | [tx-guard: Crypto Transaction Safety Checker](https://github.com/jeffreyesdavid/tx-guard) | Python, Ethereum, threat detection, transaction simulation, unit testing, Streamlit web app | Complete · [Try it live →](https://txguard-jeffrey.streamlit.app) |
 | [beat-guard: Beat Fingerprinting & Theft Detection](https://github.com/jeffreyesdavid/beat-guard) | Python, audio fingerprinting, SHA-256, blockchain timestamps, evidence reporting | Complete |
+| [VPN Guardian: Personal Security Agent](https://github.com/jeffreyesdavid/vpn-guardian) | Bash, network security, VPN/routing, leak detection, local AI (Ollama), GitHub Pages | v1.1 shipped · [Project site →](https://jeffreyesdavid.github.io/vpn-guardian/) |
 | [Incident Response: Personal Google Account](writeups/01-personal-account-incident-response.md) | Triage, credential rotation, session audit, MFA | Complete |
 | Breach Response: Client A | OSINT, account hardening, credit freeze | Planned |
 | Camera Security Audit | IoT, network segmentation, access control | Planned |
@@ -31,6 +32,8 @@ Self-taught security practitioner focused on stopping fraud and scams, and prote
 All testing is performed on systems I own or have written permission to assess. Personal data is redacted.
 
 ## Progress Log
+- **2026-10-03:** Built and shipped [VPN Guardian](https://github.com/jeffreyesdavid/vpn-guardian) ([project site](https://jeffreyesdavid.github.io/vpn-guardian/)), a macOS agent that checks every 30 seconds that my VPN is actually working: it catches VPN drops, IP leaks and route leaks, alerts my laptop and phone, and has a local AI model (Ollama) explain each alert in plain English so no data leaves the machine. Wrote a v0→v6 roadmap toward a self-hosted WireGuard VPN and a home SOC.
+- **2026-10-03:** Revoked and replaced a GitHub token after pasting it into a visible username prompt, then pushed again with the token only entered at the hidden password prompt.
 - **2026-10-03:** Expanded a fine-grained GitHub token's access one repository at a time instead of granting it all repos, keeping automation access least-privilege.
 - **2026-10-03:** Shipped a [live web demo of tx-guard](https://txguard-jeffrey.streamlit.app) so anyone can check a transaction or address in the browser with no install. Added an animated terminal demo to the README showing it catch three common wallet-draining scams, and fixed a broken clone URL in the setup instructions.
 - **2026-10-02:** Hardened tx-guard's input validation after a mistyped test input produced misleading output: malformed transaction data is now rejected with a clear error instead of being silently misread.
