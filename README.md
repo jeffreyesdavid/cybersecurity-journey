@@ -30,9 +30,10 @@ Self-taught security practitioner focused on protecting individuals and small bu
 All testing is performed on systems I own or have written permission to assess. Personal data is redacted.
 
 ## Progress Log
+- **2026-10-02:** Hardened tx-guard's input validation after a mistyped test input produced misleading output: malformed transaction data is now rejected with a clear error instead of being silently misread.
 - **2026-10-02:** Built [beat-guard](https://github.com/jeffreyesdavid/beat-guard) ([project page](https://jeffreyesdavid.github.io/beat-guard/)), a Python tool that fingerprints music producers' beats, timestamps them on Bitcoin, and finds them inside other songs, even under vocals, MP3 compression, or a sped-up disguise. Produces a shareable evidence report. 10 end-to-end tests.
 - **2026-10-02:** Built [tx-guard](https://github.com/jeffreyesdavid/tx-guard), a Python tool that checks crypto transactions before signing: matches 2,500+ known scam addresses, detects wallet-draining approvals, and simulates transactions on live Ethereum to show exact losses and hidden approvals. 37 automated tests.
-- **2026-10-02:** Audited and rebuilt my [interactive resume](https://github.com/jeffreyesdavid/interactive-resume): removed my publicly exposed phone number (PII), fixed a broken deployment, cleared leftover AI-generated text, and retargeted it for fraud and security analyst roles.
+- **2026-10-02:** Audited and rebuilt my [interactive resume](https://github.com/jeffreyesdavid/interactive-resume): removed my publicly exposed phone number (PII) and purged it from git history (deleting it from the file alone leaves it in old commits), fixed a broken deployment, cleared leftover AI-generated text, and retargeted it for fraud and security analyst roles.
 - **2026-10-02:** Scoped a least-privilege GitHub token to one repo, then revoked and rotated it immediately after accidental exposure.
 - **2026-10-01:** Built a Python password breach checker using the HIBP Pwned Passwords API. Uses k-anonymity, so the real password never leaves the machine. See [`scripts/pwcheck.py`](scripts/pwcheck.py).
 - **2026-10-01:** Investigated a Google critical security alert on my own account: rotated credentials, audited sessions, checked for mailbox persistence. See [write-up](writeups/01-personal-account-incident-response.md).
