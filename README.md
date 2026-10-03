@@ -1,11 +1,12 @@
-# Gahto | Cybersecurity
+# Jeffrey David | Cybersecurity Journey
 
-**Aspiring Security Analyst | Breach Response · IoT Security · AI Security**
+**Aspiring Fraud & Security Analyst | Scam defense · Incident response · Python**
 
-Self-taught security practitioner focused on protecting individuals and small businesses from scams, data breaches, and insecure devices. I bring 10 years of digital marketing and e-commerce experience and an insider's view of how attackers exploit social platforms.
+Self-taught security practitioner focused on stopping fraud and scams, and protecting individuals and small businesses from data breaches and insecure devices. I bring 10 years of digital marketing and e-commerce experience and an insider's view of how attackers exploit social platforms.
 
 ## Focus
-- **Breach Response & Scam Defense:** account recovery and hardening after data exposure
+- **Fraud & Scam Defense:** spotting scams before money moves (see tx-guard), awareness for everyday users
+- **Incident Response:** account recovery, credential rotation and hardening after data exposure
 - **IoT / Camera Security:** securing small-business surveillance systems
 - **AI Security:** LLM risks, prompt injection, OWASP Top 10 for LLMs
 - **Cloud Security:** AWS secure configuration
@@ -39,4 +40,4 @@ All testing is performed on systems I own or have written permission to assess. 
 - **2026-10-01:** Investigated a Google critical security alert on my own account: rotated credentials, audited sessions, checked for mailbox persistence. See [write-up](writeups/01-personal-account-incident-response.md).
 
 ## Connect
-[LinkedIn](https://www.linkedin.com/in/jeffreyisdavid/) · [TryHackMe](https://tryhackme.com/p/gahtomahiko)
+[Resume](https://jeffreyesdavid.github.io/interactive-resume/) · [LinkedIn](https://www.linkedin.com/in/jeffreyisdavid/) · [TryHackMe](https://tryhackme.com/p/gahtomahiko)
