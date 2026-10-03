@@ -31,6 +31,7 @@ Self-taught security practitioner focused on stopping fraud and scams, and prote
 All testing is performed on systems I own or have written permission to assess. Personal data is redacted.
 
 ## Progress Log
+- **2026-10-03:** Expanded a fine-grained GitHub token's access one repository at a time instead of granting it all repos, keeping automation access least-privilege.
 - **2026-10-03:** Shipped a [live web demo of tx-guard](https://txguard-jeffrey.streamlit.app) so anyone can check a transaction or address in the browser with no install. Added an animated terminal demo to the README showing it catch three common wallet-draining scams, and fixed a broken clone URL in the setup instructions.
 - **2026-10-02:** Hardened tx-guard's input validation after a mistyped test input produced misleading output: malformed transaction data is now rejected with a clear error instead of being silently misread.
 - **2026-10-02:** Built [beat-guard](https://github.com/jeffreyesdavid/beat-guard) ([project page](https://jeffreyesdavid.github.io/beat-guard/)), a Python tool that fingerprints music producers' beats, timestamps them on Bitcoin, and finds them inside other songs, even under vocals, MP3 compression, or a sped-up disguise. Produces a shareable evidence report. 10 end-to-end tests.
