@@ -17,6 +17,7 @@ Self-taught security practitioner focused on stopping fraud and scams, and prote
 | [tx-guard: Crypto Transaction Safety Checker](https://github.com/jeffreyesdavid/tx-guard) | Python, Ethereum, threat detection, transaction simulation, unit testing, Streamlit web app | Complete · [Try it live →](https://txguard-jeffrey.streamlit.app) |
 | [beat-guard: Beat Fingerprinting & Theft Detection](https://github.com/jeffreyesdavid/beat-guard) | Python, audio fingerprinting, SHA-256, blockchain timestamps, evidence reporting | Complete |
 | [VPN Guardian: Personal Security Agent](https://github.com/jeffreyesdavid/vpn-guardian) | Bash, network security, VPN/routing, leak detection, local AI (Ollama), GitHub Pages | v1.1 shipped · [Project site →](https://jeffreyesdavid.github.io/vpn-guardian/) |
+| [Wi-Fi Guardian: Evil Twin & Look-alike Wi-Fi Detection](https://github.com/jeffreyesdavid/wifi-guardian) | Python, Swift (CoreWLAN), wireless security, evil twin / ARP spoof detection, homoglyph matching, unit testing | v1 shipped · runnable attack demo |
 | [Incident Response: Personal Google Account](writeups/01-personal-account-incident-response.md) | Triage, credential rotation, session audit, MFA | Complete |
 | Breach Response: Client A | OSINT, account hardening, credit freeze | Planned |
 | Camera Security Audit | IoT, network segmentation, access control | Planned |
@@ -32,6 +33,8 @@ Self-taught security practitioner focused on stopping fraud and scams, and prote
 All testing is performed on systems I own or have written permission to assess. Personal data is redacted.
 
 ## Progress Log
+- **2026-10-08:** Published [Wi-Fi Guardian](https://github.com/jeffreyesdavid/wifi-guardian), a free macOS tool that spots fake Wi-Fi before you join it: evil twins (same name, weaker security), unknown access points, look-alike names (homoglyphs, hidden characters, "FREE WiFi" bait) and router identity changes that point to ARP spoofing. Built a small Swift helper because macOS hides Wi-Fi names from apps without Location permission. 11 detection tests. Aimed at small businesses and bank or café guest networks that can't afford enterprise wireless intrusion prevention.
+- **2026-10-08:** Added runnable demos and architecture diagrams to Wi-Fi Guardian and VPN Guardian. Used a simulated network and example IPs instead of my real scans, so my home network name, router MAC and location stay out of public repos.
 - **2026-10-03:** Built and shipped [VPN Guardian](https://github.com/jeffreyesdavid/vpn-guardian) ([project site](https://jeffreyesdavid.github.io/vpn-guardian/)), a macOS agent that checks every 30 seconds that my VPN is actually working: it catches VPN drops, IP leaks and route leaks, alerts my laptop and phone, and has a local AI model (Ollama) explain each alert in plain English so no data leaves the machine. Wrote a v0→v6 roadmap toward a self-hosted WireGuard VPN and a home SOC.
 - **2026-10-03:** Revoked and replaced a GitHub token after pasting it into a visible username prompt, then pushed again with the token only entered at the hidden password prompt.
 - **2026-10-03:** Expanded a fine-grained GitHub token's access one repository at a time instead of granting it all repos, keeping automation access least-privilege.
