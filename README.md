@@ -30,7 +30,6 @@ Self-taught security practitioner focused on stopping fraud and scams, and prote
 | Home Lab: SIEM | Wazuh, log analysis, detection | Planned |
 
 ## Certifications
-- [ ] CompTIA Security+
 - [ ] AWS Certified Cloud Practitioner
 - [x] Google Analytics · Google Ads · Meta Blueprint · HubSpot
 
@@ -66,4 +65,4 @@ All testing is performed on systems I own or have written permission to assess. 
 - **2026-10-01:** Investigated a Google critical security alert on my own account: rotated credentials, audited sessions, checked for mailbox persistence. See [write-up](writeups/01-personal-account-incident-response.md).
 
 ## Connect
-[Resume](https://jeffreyesdavid.github.io/interactive-resume/) · [LinkedIn](https://www.linkedin.com/in/jeffreyesdavid/) · [TryHackMe](https://tryhackme.com/p/gahtomahiko)
+[Resume](https://jeffreyesdavid.github.io/interactive-resume/) · [LinkedIn](https://www.linkedin.com/in/jeffreyesdavid/)
