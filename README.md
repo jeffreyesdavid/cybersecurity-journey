@@ -2,7 +2,7 @@
 
 **Aspiring Fraud & Security Analyst | Scam defense · Incident response · Python**
 
-Self-taught security practitioner focused on stopping fraud and scams, and protecting individuals and small businesses from data breaches and insecure devices. I bring 10 years of digital marketing and e-commerce experience and an insider's view of how attackers exploit social platforms.
+Self-taught security practitioner focused on stopping fraud and scams, and protecting individuals and small businesses from data breaches and insecure devices. 
 
 ## Focus
 - **Fraud & Scam Defense:** spotting scams before money moves (see tx-guard and Aegis Guardian), awareness for everyday users
